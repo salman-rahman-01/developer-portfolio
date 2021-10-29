@@ -5,16 +5,22 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .color-korbo{
     color: orange;
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 2%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 .half-width img{
     width: 80%;
@@ -47,4 +53,30 @@ h1{
 }
 .color-korbo2{
     color: skyblue;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 80px;
+}
+.experience-items{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-dev{
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    border-left: 5px solid;
+}
+#baby-dev{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 5px solid;
+}
+footer p{
+    text-align: center;
 }
