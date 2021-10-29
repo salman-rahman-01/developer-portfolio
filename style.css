@@ -8,7 +8,7 @@ h1{
 .color-korbo{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -44,4 +44,7 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     padding-bottom: 200px;
+}
+.color-korbo2{
+    color: skyblue;
 }
